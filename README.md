@@ -1,4 +1,4 @@
-# FrequencyWords
+# Operating Systems
 Repository for Frequency Word List Generator and processed files
 
 In early days I hosted the generated files on OneDrive with my blog https://invokeit.wordpress.com/frequency-word-lists/ linking to it.
