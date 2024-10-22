@@ -1,0 +1,5 @@
+/workspaces/Level2-comp/User Interfaces/Formative_CW_1/cwk1_files/build/CMakeFiles/rebuild_cache.dir
+/workspaces/Level2-comp/User Interfaces/Formative_CW_1/cwk1_files/build/CMakeFiles/edit_cache.dir
+/workspaces/Level2-comp/User Interfaces/Formative_CW_1/cwk1_files/build/CMakeFiles/test_quake.dir
+/workspaces/Level2-comp/User Interfaces/Formative_CW_1/cwk1_files/build/CMakeFiles/test_dataset.dir
+/workspaces/Level2-comp/User Interfaces/Formative_CW_1/cwk1_files/build/CMakeFiles/quaketool.dir
