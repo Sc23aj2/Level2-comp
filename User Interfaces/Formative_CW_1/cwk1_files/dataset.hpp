@@ -9,12 +9,12 @@ class QuakeDataset
 {
   public:
     QuakeDataset() {}
-    QuakeDataset(const std:: string&) const { loadData(std:: string&); };
-    void loadData(std:: string&); 
-    int size();
-    std::vector<Quake> operator [] (int index) { data.at(index); }
+    QuakeDataset(const std:: string& file) { loadData(file) ;}
+    void loadData(std:: string&);
+    int size() const { return sizeof(data); }
+    std::vector<Quake> operator [] (int index) { return data.at(index); }
     std::vector<Quake> strongest();
-    std::vector<Quake> shawllowest();
+    std::vector<Quake> shallowest();
     double meanDepth();
     double meanMagnitude();
 
