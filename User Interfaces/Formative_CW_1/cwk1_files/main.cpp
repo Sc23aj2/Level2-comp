@@ -8,16 +8,11 @@ using namespace std;
 
 int main(int argc, char* argv[])
 {
-  if (argc != 2)
-  {
-    fprintf(2, "Usage: ./main <file_name>");
-  }
-
-  argparse::ArgumentParser program("main");
+  argparse::ArgumentParser program("quaketool");
 
   program.add_argument("filename")
     .help("name of CSV file containing quake data")
     .metavar("CSV_FILE");
-
+  program.parse_args(argc, argv);
   return 0;
 }

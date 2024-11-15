@@ -1,0 +1,80 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/workspaces/Level2-comp/User Interfaces/Formative_CW_1/cwk1_files/argparse.hpp
+cerrno
+-
+algorithm
+-
+any
+-
+array
+-
+set
+-
+charconv
+-
+cstdlib
+-
+functional
+-
+iomanip
+-
+iostream
+-
+iterator
+-
+limits
+-
+list
+-
+map
+-
+numeric
+-
+optional
+-
+sstream
+-
+stdexcept
+-
+string
+-
+string_view
+-
+tuple
+-
+type_traits
+-
+utility
+-
+variant
+-
+vector
+-
+
+/workspaces/Level2-comp/User Interfaces/Formative_CW_1/cwk1_files/dataset.hpp
+vector
+-
+quake.hpp
+/workspaces/Level2-comp/User Interfaces/Formative_CW_1/cwk1_files/quake.hpp
+
+/workspaces/Level2-comp/User Interfaces/Formative_CW_1/cwk1_files/main.cpp
+iostream
+-
+dataset.hpp
+/workspaces/Level2-comp/User Interfaces/Formative_CW_1/cwk1_files/dataset.hpp
+argparse.hpp
+/workspaces/Level2-comp/User Interfaces/Formative_CW_1/cwk1_files/argparse.hpp
+
+/workspaces/Level2-comp/User Interfaces/Formative_CW_1/cwk1_files/quake.hpp
+string
+-
+iostream
+-
+
