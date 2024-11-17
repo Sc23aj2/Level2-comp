@@ -10,6 +10,7 @@ CMakeFiles/quaketool.dir/main.cpp.o: ../argparse.hpp
 CMakeFiles/quaketool.dir/main.cpp.o: ../dataset.hpp
 CMakeFiles/quaketool.dir/main.cpp.o: ../main.cpp
 CMakeFiles/quaketool.dir/main.cpp.o: ../quake.hpp
+CMakeFiles/quaketool.dir/main.cpp.o: ../tabulate.hpp
 
 CMakeFiles/quaketool.dir/quake.cpp.o: ../quake.cpp
 CMakeFiles/quaketool.dir/quake.cpp.o: ../quake.hpp

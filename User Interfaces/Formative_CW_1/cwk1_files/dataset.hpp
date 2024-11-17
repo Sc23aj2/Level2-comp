@@ -11,7 +11,7 @@ class QuakeDataset
     QuakeDataset() {}
     QuakeDataset(const std::string& file) { loadData(file) ;}
     void loadData(const std::string&);
-    int size() const { return sizeof(data); }
+    int size() const { return data.size(); }
     Quake operator [] (int index) { return data.at(index); }
     Quake strongest() const;
     Quake shallowest() const;
