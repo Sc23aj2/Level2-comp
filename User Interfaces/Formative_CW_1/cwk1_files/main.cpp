@@ -23,8 +23,8 @@ int main(int argc, char* argv[])
 
   program.add_argument("-m")
   .help("displays quakes with a magnitude equal to or greater than the specified threshold.")
-  .default_value(0.0)
   .metavar("VALUE")
+  .default_value(0.0)
   .scan<'f', double>();
 
   program.add_description("displays quakes in a tabulated format and the stats of these quakes");
@@ -51,7 +51,7 @@ int main(int argc, char* argv[])
 
   if (program["-t"] == true|| program["--table"] == true)
   {
-    int magnitude = program.get<int>("-m");
+    double magnitude = program.get<double>("-m");
 
     all_quakes.add_row({"Time", "Latitude", "Longitude", "Depth", "Magnitude"});
     for (int i = 0; i < quakedataset.size(); i++)
